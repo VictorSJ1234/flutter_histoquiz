@@ -18,7 +18,7 @@ class QuestionControllerTagalog extends GetxController
   PageController _pageController;
   PageController get pageController => this._pageController;
 
-  List<QuestionTagalog> _questions = sample_data
+  List<QuestionTagalog> _questions = shuffledList
       .map(
         (question) => QuestionTagalog(
         id: question['id'],

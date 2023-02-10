@@ -69,3 +69,5 @@ const List sample_data = [
     "options": ['Tagalog', 'Tagalog', 'Tagalog', 'Tagalog'],
   },
 ];
+
+var shuffledList = sample_data.toSet().toList()..shuffle();

@@ -18,7 +18,7 @@ class QuestionController extends GetxController
   PageController _pageController;
   PageController get pageController => this._pageController;
 
-  List<Question> _questions = sample_data
+  List<Question> _questions = shuffledList
       .map(
         (question) => Question(
         id: question['id'],

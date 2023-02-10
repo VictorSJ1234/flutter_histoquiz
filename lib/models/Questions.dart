@@ -69,3 +69,5 @@ const List sample_data = [
     "options": ['English', 'English', 'English', 'English'],
   },
 ];
+
+var shuffledList = sample_data.toSet().toList()..shuffle();
