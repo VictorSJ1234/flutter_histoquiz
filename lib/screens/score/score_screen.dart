@@ -4,8 +4,8 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:flutter_final_project/controllers/question_controller.dart';
-import 'package:flutter_final_project/screens/welcome/welcome_screen.dart';
 import 'package:restart_app/restart_app.dart';
+
 
 import '../../constants.dart';
 import '../../main.dart';
@@ -44,7 +44,7 @@ class ScoreScreen extends StatelessWidget {
                   style: TextStyle(fontSize: 90.0, color: Colors.green),
                 ),
                 Text(
-                  "${_qnController.numOfCorrectAns * 10}/${_qnController.questions.length * 10}",
+                  "${_qnController.numOfCorrectAns * 5}/${_qnController.questions.length * 5}",
                   style: TextStyle(fontSize: 50.0, color: Colors.yellowAccent),
                 ),
                 SizedBox(height: 20,),

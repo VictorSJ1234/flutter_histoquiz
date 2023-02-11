@@ -10,7 +10,7 @@ const List sample_data = [
   {
     "id": 1,
     "question":
-        "Because of which reason, was Rizal not in favor of the revolution planned by the Katipunan?",
+    "Because of which reason, was Rizal not in favor of the revolution planned by the Katipunan?",
     "answer_index": 1,
     "options": ['Willingness to the wealthy '
         'Filipinos to support the struggle', 'Unpreparedness of the Katipuneros for an armed struggle', 'Absence of a military tactician who will direct the military operations of the KKK'],

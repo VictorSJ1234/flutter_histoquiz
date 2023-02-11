@@ -43,7 +43,7 @@ class ScoreScreen extends StatelessWidget {
                   style: TextStyle(fontSize: 90.0, color: Colors.green),
                 ),
                 Text(
-                  "${_qnController.numOfCorrectAns * 10}/${_qnController.questions.length * 10}",
+                  "${_qnController.numOfCorrectAns * 5}/${_qnController.questions.length * 5}",
                   style: TextStyle(fontSize: 50.0, color: Colors.yellowAccent),
                 ),
                 SizedBox(height: 20,),
