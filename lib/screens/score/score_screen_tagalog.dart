@@ -5,7 +5,6 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:flutter_final_project/controllers/question_controller_tagalog.dart';
 import 'package:flutter_final_project/screens/welcome/welcome_screen.dart';
-import 'package:restart_app/restart_app.dart';
 
 import '../../constants.dart';
 
@@ -52,7 +51,11 @@ class ScoreScreen extends StatelessWidget {
                   width: double.infinity,
                   child: ElevatedButton(
                     onPressed:  (){
-                      Restart.restartApp();
+                      Navigator.of(context).popUntil((route) => false);
+                      Navigator.push(
+                        context,
+                        CupertinoPageRoute(builder: (context) =>  WelcomeScreen()),
+                      );
                     },
                     child:
                     const Text("PLAY AGAIN",

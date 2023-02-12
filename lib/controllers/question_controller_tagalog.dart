@@ -26,7 +26,7 @@ class QuestionControllerTagalog extends GetxController
         options: question['options'],
         answer: question['answer_index']),
   )
-      .toList();
+      .toList()..shuffle();
   List<QuestionTagalog> get questions => this._questions;
 
   bool _isAnswered = false;

@@ -4,7 +4,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:get/get.dart';
 import 'package:flutter_final_project/constants.dart';
-import 'package:flutter_final_project/screens/quiz/quiz_screen.dart';
 import 'package:flutter_final_project/language/choose_language.dart';
 
 class WelcomeScreen extends StatelessWidget {

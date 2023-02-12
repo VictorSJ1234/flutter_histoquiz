@@ -26,7 +26,7 @@ class QuestionController extends GetxController
         options: question['options'],
         answer: question['answer_index']),
   )
-      .toList();
+      .toList()..shuffle();
   List<Question> get questions => this._questions;
 
   bool _isAnswered = false;
