@@ -4,15 +4,15 @@ import 'package:get/state_manager.dart';
 import 'package:flutter_final_project/models/Questions_tagalog.dart';
 import 'package:flutter_final_project/screens/score/score_screen_tagalog.dart';
 import 'package:flutter_final_project/screens/welcome/welcome_screen.dart';
-// We use get package for our state management
+
 
 class QuestionControllerTagalog extends GetxController
     with SingleGetTickerProviderMixin {
-  // Lets animated our progress bar
+
 
   AnimationController _animationController;
   Animation _animation;
-  // so that we can access our animation outside
+
   Animation get animation => this._animation;
 
   PageController _pageController;
@@ -38,7 +38,7 @@ class QuestionControllerTagalog extends GetxController
   int _selectedAns;
   int get selectedAns => this._selectedAns;
 
-  // for more about obs please check documentation
+
   RxInt _questionNumber = 1.obs;
   RxInt get questionNumber => this._questionNumber;
 
@@ -65,7 +65,7 @@ class QuestionControllerTagalog extends GetxController
     super.onInit();
   }
 
-  // // called just before the Controller is deleted from memory
+
   @override
   void onClose() {
     super.onClose();
@@ -74,7 +74,7 @@ class QuestionControllerTagalog extends GetxController
   }
 
   void checkAns(QuestionTagalog question, int selectedIndex) {
-    // because once user press any option then it will run
+
     _isAnswered = true;
     _correctAns = question.answer;
     _selectedAns = selectedIndex;
@@ -85,7 +85,7 @@ class QuestionControllerTagalog extends GetxController
     _animationController.stop();
     update();
 
-    // Once user select an ans after 3s it will go to the next qn
+    // Once user select an ans after 1s it will go to the next qn
     Future.delayed(Duration(seconds: 1), () {
       nextQuestion();
     });

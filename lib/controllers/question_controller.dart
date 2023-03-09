@@ -4,15 +4,14 @@ import 'package:get/state_manager.dart';
 import 'package:flutter_final_project/models/Questions.dart';
 import 'package:flutter_final_project/screens/score/score_screen.dart';
 
-// We use get package for our state management
 
 class QuestionController extends GetxController
     with SingleGetTickerProviderMixin {
-  // Lets animated our progress bar
+
 
   AnimationController _animationController;
   Animation _animation;
-  // so that we can access our animation outside
+
   Animation get animation => this._animation;
 
   PageController _pageController;
@@ -38,14 +37,13 @@ class QuestionController extends GetxController
   int _selectedAns;
   int get selectedAns => this._selectedAns;
 
-  // for more about obs please check documentation
   RxInt _questionNumber = 1.obs;
   RxInt get questionNumber => this._questionNumber;
 
   int _numOfCorrectAns = 0;
   int get numOfCorrectAns => this._numOfCorrectAns;
 
-  // called immediately after the widget is allocated memory
+
   @override
   void onInit() {
     // Our animation duration is 60 s
@@ -74,7 +72,7 @@ class QuestionController extends GetxController
   }
 
   void checkAns(Question question, int selectedIndex) {
-    // because once user press any option then it will run
+
     _isAnswered = true;
     _correctAns = question.answer;
     _selectedAns = selectedIndex;
@@ -85,7 +83,7 @@ class QuestionController extends GetxController
     _animationController.stop();
     update();
 
-    // Once user select an ans after 3s it will go to the next qn
+    // Once user select an ans after 1s it will go to the next qn
     Future.delayed(Duration(seconds: 1), () {
       nextQuestion();
     });

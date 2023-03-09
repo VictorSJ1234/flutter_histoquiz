@@ -71,23 +71,23 @@ const List sample_data = [
   },
   {
     "id": 11,
-    "question": "What did The First Philippine Republic came to be called?",
+    "question": "First Explorer to reach the Philippines",
     "answer_index": 2,
-    "options": ['Magellan', 'King Philip ll', 'Ruy Lopez de Villlalobos',],
+    "options": ['Vhong Navarro', 'Kai Sotto', 'Ferdinand Magellan',],
   },
   {
     "id": 12,
     "question":
     "Who is the first president of the Philippines?",
     "answer_index": 1,
-    "options": ['Apolinario Mabini', 'Emilio Aguinaldo', 'Ferdinand Marcos Sr.'],
+    "options": ['Mar Roxas', 'Emilio Aguinaldo', 'Ferdinand Marcos Sr.'],
   },
 
   {
     "id": 13,
     "question": "Where did the name of the Philippines came from?",
     "answer_index": 2,
-    "options": ['Queen Ellizabeth', 'King Philip I of Spain', 'King Philip II of Spain',],
+    "options": ['Kylie Verzosa', 'MJ Lastimosa', 'King Philip II of Spain',],
   },
   {
     "id": 14,
