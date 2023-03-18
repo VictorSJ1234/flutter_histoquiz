@@ -101,6 +101,66 @@ const List sample_data = [
     "answer_index": 2,
     "options": ['Batangas', 'Ilocos', 'Intramuros',],
   },
+  {
+    "id": 16,
+    "question": "Ano ang pangalan ng pambansang bayani ng Pilipinas na nagtatag ng Katipunan?",
+    "answer_index": 0,
+    "options": ["Andres Bonifacio", "Emilio Aguinaldo", "Jose Rizal"]
+  },
+  {
+    "id": 17,
+    "question": "Ano ang pangalan ng labanan kung saan nagbuwis ng buhay si Heneral Gregorio Del Pilar?",
+    "answer_index": 2,
+    "options": ["Labanan sa Mactan", "Labanan sa Tirad Pass", "Labanan sa Manila Bay"]
+  },
+  {
+    "id": 18,
+    "question": "Sino ang unang babaeng presidente ng Pilipinas?",
+    "answer_index": 0,
+    "options": ["Corazon Aquino", "Gloria Macapagal-Arroyo", "Imelda Marcos"]
+  },
+  {
+    "id": 19,
+    "question": "Ano ang pangalan ng pangulo ng Pilipinas na inalis sa pwesto sa 1986 People Power Revolution?",
+    "answer_index": 0,
+    "options": ["Ferdinand Marcos", "Gloria Macapagal-Arroyo", "Corazon Aquino"]
+  },
+  {
+    "id": 20,
+    "question": "Ano ang pangalan ng barkong pandigma ng Amerika na sinira sa Manila Bay sa panahon ng Digmaang Espanyol-Amerikano?",
+    "answer_index": 2,
+    "options": ["USS Maine", "USS Arizona", "USS Olympia"]
+  },
+  {
+    "id": 21,
+    "question": "Sino ang pangulo ng Pilipinas na nagdeklara ng martial law noong 1972?",
+    "answer_index": 0,
+    "options": ["Ferdinand Marcos", "Corazon Aquino", "Gloria Macapagal-Arroyo"]
+  },
+  {
+    "id": 22,
+    "question": "Ano ang pangalan ng pambansang bayani ng Pilipinas na kilala bilang Dakilang Lumpo?",
+    "answer_index": 1,
+    "options": ["Andres Bonifacio", "Apolinario Mabini", "Jose Rizal"]
+  },
+  {
+    "id": 23,
+    "question": "Ano ang pangalan ng batas na nagtatag ng autonomous region sa Muslim Mindanao?",
+    "answer_index": 2,
+    "options": ["Republic Act No. 7160", "Republic Act No. 8371", "Republic Act No. 6734"]
+  },
+  {
+    "id": 24,
+    "question": "Sino ang senador sa Pilipinas na pinaslang sa Manila International Airport noong 1983?",
+    "answer_index": 2,
+    "options": ["Corazon Aquino", "Ferdinand Marcos", "Benigno Aquino Jr."]
+  },
+  {
+    "id": 25,
+    "question": "Ano ang dating pangalan ng Maynila bago ito naging kabisera ng Pilipinas?",
+    "answer_index": 2,
+    "options": ["Tondo", "Pandacan", "Maynilad"]
+  }
 
 ];
 

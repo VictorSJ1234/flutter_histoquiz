@@ -102,6 +102,67 @@ const List sample_data = [
     "answer_index": 2,
     "options": ['Apolinario Mabini', 'Juan Luna', 'Emilio Aguinaldo',],
   },
+  {
+    "id": 16,
+    "question": "What is the name of the Philippine national hero who founded the Katipunan?",
+    "answer_index": 0,
+    "options": ["Andres Bonifacio", "Emilio Aguinaldo", "Jose Rizal"]
+  },
+  {
+    "id": 17,
+    "question": "What is the name of the battle in which General Gregorio Del Pilar sacrificed his life?",
+    "answer_index": 2,
+    "options": ["Battle of Mactan", "Battle of Tirad Pass", "Battle of Manila Bay"]
+  },
+  {
+    "id": 18,
+    "question": "Who was the first woman president of the Philippines?",
+    "answer_index": 0,
+    "options": ["Corazon Aquino", "Gloria Macapagal-Arroyo", "Imelda Marcos"]
+  },
+  {
+    "id": 19,
+    "question": "What was the name of the Philippine president who was ousted from power in the 1986 People Power Revolution?",
+    "answer_index": 0,
+    "options": ["Ferdinand Marcos", "Gloria Macapagal-Arroyo", "Corazon Aquino"]
+  },
+  {
+    "id": 20,
+    "question": "What was the name of the US battleship that was destroyed in Manila Bay during the Spanish-American War?",
+    "answer_index": 2,
+    "options": ["USS Maine", "USS Arizona", "USS Olympia"]
+  },
+  {
+    "id": 21,
+    "question": "Who was the Philippine president who declared martial law in 1972?",
+    "answer_index": 0,
+    "options": ["Ferdinand Marcos", "Corazon Aquino", "Gloria Macapagal-Arroyo"]
+  },
+  {
+    "id": 22,
+    "question": "What is the name of the Philippine national hero who is known as the Sublime Paralytic?",
+    "answer_index": 1,
+    "options": ["Andres Bonifacio", "Apolinario Mabini", "Jose Rizal"]
+  },
+  {
+    "id": 23,
+    "question": "What is the name of the law that established the autonomous region in Muslim Mindanao?",
+    "answer_index": 2,
+    "options": ["Republic Act No. 7160", "Republic Act No. 8371", "Republic Act No. 6734"]
+  },
+  {
+    "id": 24,
+    "question": "Who was the former Philippine senator who was assassinated at the Manila International Airport in 1983?",
+    "answer_index": 2,
+    "options": ["Corazon Aquino", "Ferdinand Marcos", "Benigno Aquino Jr."]
+  },
+  {
+    "id": 25,
+    "question": "What was the name of the treaty that ended the Philippine-American War?",
+    "answer_index": 1,
+    "options": ["Treaty of Paris", "Treaty of Manila", "Treaty of Washington"]
+  }
+
 
 
 ];
