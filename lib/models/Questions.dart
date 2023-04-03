@@ -159,7 +159,7 @@ const List sample_data = [
   {
     "id": 25,
     "question": "What was the name of the treaty that ended the Philippine-American War?",
-    "answer_index": 1,
+    "answer_index": 0,
     "options": ["Treaty of Paris", "Treaty of Manila", "Treaty of Washington"]
   }
 
