@@ -1,6 +1,6 @@
 # Flutter HistoQuiz
 
-Explore Philippine history with this easy-to-play Flutter quiz game. Test your knowledge and discover interesting facts about the country!
+Explore Philippine history with this easy-to-play Flutter quiz game. Test your knowledge and discover interesting facts about the country! 
 
 ## Getting Started
 
