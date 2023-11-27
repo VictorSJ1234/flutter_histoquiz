@@ -1,6 +1,6 @@
-# flutter_final_project
+# Flutter HistoQuiz
 
-A new Flutter project.
+Explore Philippine history with this easy-to-play Flutter quiz game—test your knowledge and discover interesting facts about the country!
 
 ## Getting Started
 
